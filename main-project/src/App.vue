@@ -9,7 +9,7 @@
 -->
 <script setup lang="ts">
 import { ref } from 'vue';
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 import { add } from '@monorepo-study/common';
 const sum = ref(add(1, 2));
 </script>

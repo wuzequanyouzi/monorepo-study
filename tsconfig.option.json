@@ -11,7 +11,7 @@
     "emitDeclarationOnly": true,
     "noEmitOnError": true,
     "skipLibCheck": true,
-    
+
     // https://www.typescriptlang.org/zh/tsconfig/#esModuleInterop
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
