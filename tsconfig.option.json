@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // https://www.typescriptlang.org/zh/tsconfig/#composite
+    "composite": true,
+    // https://www.typescriptlang.org/zh/tsconfig/#incremental
+    "incremental": true,
+
+    // https://www.typescriptlang.org/zh/tsconfig/#declaration
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    
+    // https://www.typescriptlang.org/zh/tsconfig/#esModuleInterop
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // https://www.typescriptlang.org/zh/tsconfig/#resolveJsonModule
+    "resolveJsonModule": true,
+    // https://www.typescriptlang.org/zh/tsconfig/#strict
+    "strict": true
+  }
+}

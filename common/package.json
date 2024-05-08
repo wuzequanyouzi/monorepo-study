@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo-study/common",
+  "private": true,
+  "version": "0.1.0",
+  "description": "local common package",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zequanwu",
+  "license": "ISC"
+}

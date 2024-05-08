@@ -1,0 +1,5 @@
+packages:
+  - 'main-project'
+  # 如果是目录就是整个包，则不需要dirName/*
+  # 如果目录下分多个包，则需要dirName/*
+  - 'common'
