@@ -24,6 +24,7 @@
 - Eslint 代码检查
 - Prettier 代码格式化
 - Husky (管理git hooks) 自动代码检查
+  [Husky](https://typicode.github.io/husky/)
 - lint-staged (管理git staged files) 自动代码格式化
 - Commitlint (管理git commit message)
 - commitzen (生成规范化的commit message)
