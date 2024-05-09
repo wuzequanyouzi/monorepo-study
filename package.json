@@ -9,7 +9,8 @@
     "lint": "eslint . --max-warnings=0",
     "format:help": "echo \"自行查看prettier配置文档【https://prettier.io/docs/en/options】\"",
     "format": "prettier --config .prettierrc . --write",
-    "cz": "cz"
+    "cz": "cz",
+    "common": "pnpm --filter @monorepo-study/common"
   },
   "keywords": [],
   "author": "",
