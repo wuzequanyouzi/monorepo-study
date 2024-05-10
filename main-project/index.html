@@ -2,10 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <title>去水印解析视频</title>
+    <script>
+      var htmlDom = document.documentElement;
+      var windowWidth = htmlDom.clientWidth;
+
+      var proportion = 7.5;
+      if (windowWidth >= 480) {
+        windowWidth = 480;
+      }
+
+      var evt = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+      htmlDom.style.fontSize = windowWidth / proportion + 'px';
+      (function () {
+        document.addEventListener(
+          'DOMContentLoaded',
+          function () {
+            if (!htmlDom.style.fontSize) {
+              var htmlDomProtect = document.documentElement;
+              var windowWidth = htmlDomProtect.clientWidth;
+              if (windowWidth >= 480) {
+                windowWidth = 480;
+              }
+              htmlDomProtect.style.fontSize = windowWidth / proportion + 'px';
+            }
+          },
+          false,
+        );
+      })();
+
+      window.addEventListener(
+        evt,
+        function () {
+          setTimeout(function () {
+            var htmlDomProtect = document.documentElement;
+            var windowWidth = htmlDomProtect.clientWidth;
+            if (windowWidth >= 480) {
+              windowWidth = 480;
+            }
+            htmlDomProtect.style.fontSize = windowWidth / proportion + 'px';
+          }, 200);
+        },
+        false,
+      );
+    </script>
   </head>
+
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
