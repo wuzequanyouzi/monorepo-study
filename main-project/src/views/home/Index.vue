@@ -6,13 +6,12 @@ import BackgroundOne from '../../components/BackgroundOne.vue';
 
 // TODO： 解析之后，启用无头浏览器，访问页面，然后检索video src 返回
 const url = ref('');
-
 </script>
 
 <template>
   <BackgroundOne />
   <div class="home-container">
-    <div class="field-input"><Field style="width: 90%;" size="large" label="" v-model="url"/></div>
+    <div class="field-input"><Field style="width: 90%" size="large" label="" v-model="url" /></div>
   </div>
 </template>
 
@@ -32,7 +31,7 @@ const url = ref('');
 
 .home-container {
   height: 60%;
-  background-color: #EEE;
+  background-color: #eee;
   padding: 0.24rem;
   .field-input {
     display: flex;
@@ -44,5 +43,4 @@ const url = ref('');
     padding: 0.08rem 0;
   }
 }
-
 </style>

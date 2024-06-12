@@ -1,10 +1,10 @@
 <template>
   <div class="background-one">
-    <img class="background-one__img" src="../assets/background-top.jpg" alt="">
+    <img class="background-one__img" src="../assets/background-top.jpg" alt="" />
     <div class="background-one__content">
       <div class="background-one__content-left">去水印</div>
       <div class="background-one__content-right">
-        <div style="color:red">免费</div>
+        <div style="color: red">免费</div>
         <div style="color: #42b983">简洁</div>
         <div style="color: #198061">无广告</div>
       </div>
@@ -12,9 +12,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped>
 .background-one {
@@ -44,9 +42,9 @@
       align-items: center;
       writing-mode: vertical-lr;
       font-size: 0.6rem;
-      color: #AAA;
+      color: #aaa;
     }
-    
+
     &-right {
       flex: 1;
       display: flex;
@@ -58,7 +56,7 @@
       width: 35%;
       height: 80%;
       font-size: 0.6rem;
-      color: #AAA;
+      color: #aaa;
       & > div {
         display: flex;
         justify-content: center;

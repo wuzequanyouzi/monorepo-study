@@ -65,12 +65,8 @@ function close() {
       </span>
     </div>
     <div class="buttons">
-      <button v-if="needRefresh" type="button" class="reload" @click="updateServiceWorker()">
-        Reload
-      </button>
-      <button type="button" @click="close">
-        Close
-      </button>
+      <button v-if="needRefresh" type="button" class="reload" @click="updateServiceWorker()">Reload</button>
+      <button type="button" @click="close">Close</button>
     </div>
   </div>
 </template>

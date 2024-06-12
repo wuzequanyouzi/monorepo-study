@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@monorepo-study/common": "workspace:^",
     "vant": "^4.9.0",
     "vue": "^3.4.26"
   },
